@@ -21,7 +21,6 @@ print("\t\tSmall Forward:\t\t " +roster[2])
 print("\t\tPower Forward:\t\t " +roster[3])
 print("\t\tCenter:\t\t\t" +roster[4])
 
-
 #Remove an injured player
 injure_player = roster.pop(2)
 print("\nOh no, " + injure_player + " is injured.")
