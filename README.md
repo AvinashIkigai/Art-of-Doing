@@ -6,7 +6,7 @@
 - [Factorial Calculator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/FactorialCalculatorApp.py)
 - [Fibonacci Calculator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/FibonacciCalculator.py)
 
-# Amcat Automatas: 
+# [Amcat Automatas:](https://github.com/AvinashIkigai/Art-of-Doing/tree/main/Amcat) 
 - [8 Cell in cpp](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/8cell.cpp)
 - [Abundant in cpp](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/abundant.cpp)
 - [Armstrong in cpp](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/armstrong.cpp)
