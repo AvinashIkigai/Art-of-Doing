@@ -8,6 +8,9 @@
 
 # Amcat Automatas:
 # [Question of Amcat Automata](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/Questions.pdf)
+- [Amcat Question Folder](https://github.com/AvinashIkigai/Art-of-Doing/tree/main/amcat_questions)
+- [Automata Fix](https://www.faceprep.in/amcat-exam/amcat-automata-fix-questions/)
+- [Automata Coding Questions](https://www.faceprep.in/amcat-exam/amcat-automata-questions/)
 - [Persistance](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/persistance.txt)
 - [8 Cell in cpp](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/8cell.cpp)
 - [Abundant in cpp](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/abundant.cpp)
