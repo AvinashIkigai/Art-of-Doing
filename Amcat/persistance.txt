@@ -1,0 +1,339 @@
+Question-1
+Ram is a 6 years old boy who loves to play with numeric legos. One day Ram’s mom created a number using those legos and asked ram to tell the number of elements available between two specific numbers ‘alpha1’ and ‘alpha2’. After 15 years when Ram started learning to program, he now wants to write a code to find the number of elements lies between ranges alpha1 and alpha2. If the number is arr and the starting and ending points are alpha1 and alpha2, find the numbers of elements lies in the range.
+
+Input:
+Three space-separated integers
+First is the length of arr.
+Second is the starting point as alpha1.
+The third is the endpoint as alpha2.
+N space-separated array elements.
+Output:
+Space-separated indexes between alpha1 and alpha2.
+Example:
+Input:
+
+9 2 6
+1 2 3 4 5 6 7 8 9
+
+Output:
+
+1 2 3 4
+-----------------------------------------------
+python:
+-----------------------------------------------
+n, alpha1, alpha2 = map(int, input().split())
+arr = list(map(int, input().split()))
+for i in range(n):
+    if (arr[i]>=alpha1) and (arr[i]<alpha2):
+        print(i, end=" ")
+------------------------------------------------
+C:
+------------------------------------------------
+#include <stdio.h>
+int main()
+{
+    int starting_point, ending_point, arr[20], length, j;
+    scanf("%d %d %d",&length,&starting_point,&ending_point);
+    for(j=0; j<length; j++)
+    {
+        scanf("%d",&arr[j]);
+    }
+    for(j=0;j<length;j++)
+    {
+        if(arr[j]>=starting_point && arr[j]<ending_point)
+        {
+            printf("%d ",j);
+        }
+    }
+    return 0;
+}
+--------------------------------------------------
+Question-2
+Find the security key to access the bank account in from the encrypted message. The key in the message is the first repeating number from the given message of numbers.
+
+Input:
+String
+Output:
+The first repeating number from the message
+
+Example:
+Input:
+
+123456654321
+
+Output:
+
+1
+
+Solution:
+------------------------------------------------
+Python:
+------------------------------------------------
+arr = input()
+flag = 0
+for i in range(len(arr)):
+    for j in range(i+1,len(arr)):
+        if (arr[i] == arr[j]) and (flag==0):
+            print(arr[j])
+            flag = 1
+            break;
+
+
+-----------------------------------------------
+C:
+-----------------------------------------------
+#include <stdio.h> 
+#include <string.h>
+int main()
+{
+    char arr[20];         
+    int x, y, len, flag=0;
+    scanf("%s",arr);
+    len = strlen(arr);
+    for(x=0;x<len;x++)
+    {
+        for(y=x+1;y<len;y++)
+        {
+            if(arr[x]==arr[y] && flag == 0)
+            {
+                printf("%c",arr[y]);
+                flag = 1;
+                break;
+            }
+        }
+    }
+    return 0;
+}
+---------------------------------------------
+Question-3
+Write a program to calculate the sum of elements of an array that are equal to the integer entered by the user. The inputs will be the size of the array, elements of the array, and an integer. You have to print the sum calculated after adding all the elements that match the integer entered by the user.
+
+Input:
+Length
+Input number
+Element
+Output:
+Sum of elements the same as the value
+
+Example:
+Input:
+
+8
+
+1 2 3 4 2 5 6 2
+
+2
+
+Output:
+
+6
+
+Solution:
+-------------------------------------
+Python:
+-------------------------------------
+size = int(input())
+arr = list(map(int,input().split()))
+num = int(input())
+res = 0
+for i in arr:
+    if i==num:
+        res+=i
+print(res)
+-------------------------------------
+C:
+-------------------------------------
+#include<stdio.h>
+int sumOfValue(int len, int* arr, int value)
+{
+    int sum = 0;
+    for(int i =0 ; i < len ; i++)
+    {
+        if(arr[i]==value) sum += value;
+    }
+    return sum;
+}
+
+int main()
+{
+    int len, value, i;
+    int arr[100];
+    scanf("%d",&len);
+    for (i=0;i<len;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    scanf("%d",&value);
+    printf("%d",sumOfValue(len,arr,value));
+}
+
+---------------------------------------------
+Question-4
+For the generation of energy at the atomic center the energy is used to start the plant is in negative sign and the energy generated after the plant started is represented with a positive sign. Our task is to calculate the total number of energy that is generated throughout the day.
+
+Input:
+Two inputs –  One for the number of times energy was recorded  as ‘total_reading’ and Second for reading of the energy used or produced ‘arr’.
+Output:
+Sum of the total energy produced
+
+Example:
+Input:
+
+8 
+1 4 -5 6 7 -4 4 -1
+
+Output:
+
+12
+
+Solution:
+--------------------------------------------
+Python:
+--------------------------------------------
+total_reading = int(input())
+arr = list(map(int,input().split()))
+print(sum(arr))
+
+-------------------------------------------
+C:
+-------------------------------------------
+#include<stdio.h>
+
+int main()
+{
+int total_reading, i, arr[20];
+scanf("%d",&total_reading);
+for(i=0; i<total_reading; i++)
+{
+    scanf("%d",&arr[i]);
+}
+int sum = 0;
+for(i = 0;i<total_reading;i++)
+{
+    sum+=arr[i];
+}
+printf("%d",sum);
+return 0;
+}
+-----------------------------------------
+Question-5
+Print the number at the given index of the series 1 1 2 3 5… and so on. Consider the index as the number and print the value
+
+Input:
+Single input of the index of the number as ‘number’
+Output:
+The number at the given index of the series
+
+Example:
+Input:
+
+10
+
+Output:
+
+55
+
+Solution:
+----------------------------------------
+Python:
+----------------------------------------
+index = int(input())
+val1, val2, val3 = 0, 1, 1
+for i in range(3, index+1):
+    val1 = val2
+    val2 = val3
+    val3 = val1 + val2
+print(val3)
+----------------------------------------
+C:
+----------------------------------------
+#include <stdio.h>
+int main()
+{
+    int val1 = 0, val2 = 1, val3 = 1;      
+    int number, i;
+    scanf("%d",&number);
+    for(i=2; i<=number; i++)
+    {
+        val3 = val1 +val2;        
+        val1 = val2;      
+        val2 = val3;
+        
+    }
+printf("%d ",val3);
+    return 0;
+}
+---------------------------------------
+Question-6
+The function printPattern(int  num)​ prints elements of an pre inputted array based on the value of input argument num​  ​(num>=​ 0). If the input number num​ is even, the function is expected to print all the even numbers upto num of the array, and in case it’s odd, is expected to print all the odd numbers upto num of the array.
+
+Input:
+Num , where 0 <= num <= 10
+
+Output:
+All numbers separated with space.
+
+Example:
+Input:
+
+Num = 2
+
+Arr[] = {1,2,3,4,5,6,7,8,9,10}
+
+Output:
+
+ the function prints 2(without quotes).
+
+Solution:
+-------------------------------------------
+Python:
+-------------------------------------------
+def printPattern(num):
+    arr = [1,2,3,4,5,6,7,8,9,0]
+    if num%2 == 0:
+        for i in range(num+1):
+            if arr[i]%2==0:
+                print(arr[i],end=" ")
+    else:
+        for i in range(num+1):
+            if arr[i]%2!=0:
+                print(arr[i],end=" ")
+
+num = int(input())
+printPattern(num)
+-----------------------------------------
+C:
+-----------------------------------------
+#include <stdio.h>
+void printPattern(int num)
+{
+    int i ;
+   int arr[] = {1,2,3,4,5,6,7,8,9,0};
+
+
+    if(num%2==0)
+    {
+         
+        for(i=0;i<=num;i++)
+        {
+         if(arr[i]%2==0)
+         printf(" %d",arr[i]);
+        }
+    }
+   else
+   {
+        for(i=0;i<=num;i++)
+        {
+         if(arr[i]%2 != 0)
+         printf(" %d",arr[i]);
+        }
+   }
+}
+
+int main()
+{
+    int num=9;
+    printPattern(num);
+    return 0;
+}
+-----------------------------------------------
