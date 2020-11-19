@@ -8,6 +8,7 @@
 
 # Amcat Automatas:
 # [Question of Amcat Automata](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/Questions.pdf)
+- [Persistance](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/persistance.txt)
 - [8 Cell in cpp](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/8cell.cpp)
 - [Abundant in cpp](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/abundant.cpp)
 - [Armstrong in cpp](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Amcat/armstrong.cpp)
