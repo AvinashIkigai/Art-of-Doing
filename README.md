@@ -6,6 +6,7 @@
 - [Factorial Calculator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/FactorialCalculatorApp.py)
 - [Grade Point Average Calculator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/GradePointAverageCalculator.py)
 - [Shipping Account Program](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/ShippingAccountApp.py)
+- [Coin Flipper App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/CoinFliperApp.py)
 
 ## Algo Trading Strategies
 - [Algorithm Trading USING MACD](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Algorithmic_Trading_Strategy_Using_MACD.ipynb)

@@ -45,4 +45,3 @@ if username in users:
 #Our user is not in the list
 else:
     print("Sorry, you don't have account with us. Goodbye..")
-
