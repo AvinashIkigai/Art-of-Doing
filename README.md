@@ -11,6 +11,8 @@
 - [Voter Registration App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/VoterRegistration.py)
 - [Rock Paper Scissors Game](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/RockPaperScissor.py)
 - [Thesaurus App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/ThesaurusApp.py)
+- [Database Admin App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/DatabaseApp.py)
+- [Polling App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PollingApp.py)
 
 
 ## Algo Trading Strategies
