@@ -10,6 +10,7 @@
 - [Guess Number App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/GuessNumber.py)
 - [Voter Registration App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/VoterRegistration.py)
 - [Rock Paper Scissors Game](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/RockPaperScissor.py)
+- [Thesaurus App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/ThesaurusApp.py)
 
 
 ## Algo Trading Strategies
