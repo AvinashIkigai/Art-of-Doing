@@ -13,6 +13,8 @@
 - [Thesaurus App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/ThesaurusApp.py)
 - [Database Admin App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/DatabaseApp.py)
 - [Polling App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PollingApp.py)
+- [Frequency Analysis App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/FrequencyAnalysis.py)
+- [Code Breaker App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/CodeBreakerApp.py)
 
 
 ## Algo Trading Strategies
