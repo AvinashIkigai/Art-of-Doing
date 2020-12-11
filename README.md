@@ -15,7 +15,7 @@
 - [Polling App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PollingApp.py)
 - [Frequency Analysis App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/FrequencyAnalysis.py)
 - [Code Breaker App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/CodeBreakerApp.py)
-
+- [Factor Generator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/FactorGeneratorApp.py)
 
 ## Algo Trading Strategies
 - [Algorithm Trading USING MACD](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Algorithmic_Trading_Strategy_Using_MACD.ipynb)
