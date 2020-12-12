@@ -19,7 +19,7 @@
 - [Even Odd Sorter App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/EvenOddSorterApp.py)
 - [Prime Number Sorter App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PrimeNumberApp.py)
 - [Guess The Words App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/GuessTheWords.py)
-- [Power Ball App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PowerBalApp.py)
+- [Power Ball App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PowerBallApp.py)
 
 
 ## Algo Trading Strategies
