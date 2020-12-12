@@ -17,6 +17,10 @@
 - [Code Breaker App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/CodeBreakerApp.py)
 - [Factor Generator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/FactorGeneratorApp.py)
 - [Even Odd Sorter App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/EvenOddSorterApp.py)
+- [Prime Number Sorter App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PrimeNumberApp.py)
+- [Guess The Words App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/GuessTheWords.py)
+- [Power Ball App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PowerBalApp.py)
+
 
 ## Algo Trading Strategies
 - [Algorithm Trading USING MACD](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Algorithmic_Trading_Strategy_Using_MACD.ipynb)
