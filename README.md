@@ -20,6 +20,10 @@
 - [Prime Number Sorter App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PrimeNumberApp.py)
 - [Guess The Words App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/GuessTheWords.py)
 - [Power Ball App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PowerBallApp.py)
+- [Dice App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/DiceApp.py)
+- [Calculator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/CalculatorApp.py)
+
+
 
 
 ## Algo Trading Strategies
