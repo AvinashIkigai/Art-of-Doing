@@ -22,6 +22,9 @@
 - [Power Ball App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/PowerBallApp.py)
 - [Dice App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/DiceApp.py)
 - [Calculator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/CalculatorApp.py)
+- [Bank App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/BankApp.py)
+- [Tic Tac Toe](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/TicTacToe.py)
+
 
 
 
