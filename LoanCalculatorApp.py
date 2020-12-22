@@ -5,7 +5,6 @@ from matplotlib import pyplot
 
 def get_loan_info():
     """Get the basic information of a loan and store it in a dictionary"""
-
     # Create a blank dist to represent a loan
     loan = {}
 
@@ -79,5 +78,21 @@ my_loan = get_loan_info()
 starting_principal = my_loan['principal']
 data_to_plot = []
 
-show_loan_info(my_loan)
+show_loan_info(my_loan, month_number)
 print("Press Enter to begin paying off your loan.")
+
+while my_loan['principal'] > 0:
+    if my_loan['principal'] > starting_principal:
+        break
+
+    month_number += 1
+    collect_interest(my_loan)
+    make_monthly_payment(my_loan)
+    data_to_plot.append((month_number, my_loan['principal']))
+    show_loan_info(my_loan, month_number)
+
+if my_loan['principal'] <= 0:
+    summarize_loan(my_loan, month_number, starting_principal)
+    create_graph(data_to_plot, my_loan)
+else:
+    print("\nYou will never pay off your loan!!!")
