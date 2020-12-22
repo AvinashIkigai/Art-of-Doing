@@ -24,11 +24,9 @@
 - [Calculator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/CalculatorApp.py)
 - [Bank App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/BankApp.py)
 - [Tic Tac Toe](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/TicTacToe.py)
-
-
-
-
+- [Loan Calculator App](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/LoanCalculatorApp.py)
 
 ## Algo Trading Strategies
+
 - [Algorithm Trading USING MACD](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Algorithmic_Trading_Strategy_Using_MACD.ipynb)
 - [Algorithm Trading USING SMA30 and SMA100](https://github.com/AvinashIkigai/Art-of-Doing/blob/main/Algorithmic_Trading_Strategy_Using_SMA30_100.ipynb)
